@@ -1,0 +1,21 @@
+.main {
+  @apply py-28 lg:flex md:flex items-center justify-between;
+
+  img {
+    @apply lg:mr-36 md:mr-36;
+  }
+
+  .content {
+    @apply flex items-center justify-center flex-auto;
+
+    div {
+      @apply max-w-[627px];
+
+      p {
+        span {
+          @apply text-22;
+        }
+      }
+    }
+  }
+}

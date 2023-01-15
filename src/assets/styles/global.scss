@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  padding: 1rem;
+}
+
+@layer components {
+  .btn-blue {
+    @apply bg-gray-900 text-white text-18 leading-31 py-4 px-16 rounded-large;
+  }
+
+  .desc {
+    @apply text-18 font-normal leading-26;
+  }
+}
+
+h1 {
+  @apply font-bold lg:text-50 text-[52px] leading-71 text-white mb-3;
+}
+
+h2 {
+  @apply font-medium text-36 leading-51 text-warna-primary;
+}
+
+.desc {
+  @apply text-18 font-normal leading-26;
+}
+
+.btn {
+  @apply text-16 font-medium leading-23 text-warna-teks bg-white rounded-large px-4 py-2;
+}

@@ -1,0 +1,13 @@
+.productCard {
+  @apply max-w-[300px];
+
+  img {
+    @apply w-full mb-9;
+  }
+  .content {
+    @apply text-center;
+    h4 {
+      @apply text-36 text-warna-primary mb-4;
+    }
+  }
+}

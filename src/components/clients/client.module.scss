@@ -1,0 +1,18 @@
+.main {
+  @apply flex mb-28 flex-col items-center p-[73px] text-center;
+
+  .title {
+    @apply mb-6;
+  }
+
+  .clients {
+    @apply h-auto flex flex-wrap justify-center items-baseline;
+
+    img {
+      @apply mr-7 mt-2 mb-2;
+      :last-child {
+        @apply self-start;
+      }
+    }
+  }
+}

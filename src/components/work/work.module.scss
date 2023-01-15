@@ -1,0 +1,24 @@
+.work {
+  @apply md:flex lg:flex items-center justify-between py-36;
+
+  .workContent {
+    @apply w-full md:w-1/3 lg:w-1/3 mb-3;
+
+    h2,
+    p {
+      @apply mb-14;
+    }
+  }
+
+  .workGallary {
+    @apply grid  grid-cols-1  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-5 relative;
+
+    .ellipce {
+      @apply absolute invisible lg:visible md:visible lg:top-[-30px] lg:right-[-30px] md:top-[-30px] md:right-[-30px];
+    }
+
+    .ellipce2 {
+      @apply absolute bottom-36 left-[-55px];
+    }
+  }
+}

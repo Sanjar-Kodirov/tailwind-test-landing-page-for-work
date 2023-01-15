@@ -1,0 +1,18 @@
+.header {
+  @apply container relative overflow-hidden  md:rounded-md sm:rounded-md rounded-md lg:pl-[76px] md:pl-[30px] sm:pl-4 p-2;
+  height: 707px;
+  background: url(../../assets/images/header-background.png) no-repeat center
+    center/cover;
+
+  .headerContent {
+    @apply flex flex-col relative  justify-center  items-start h-full z-10;
+    max-width: 500px;
+
+    button {
+      @apply mt-6 px-[53px] py-[12px] text-22  text-warna-teks bg-white rounded-large;
+    }
+  }
+  img {
+    @apply absolute right-0 bottom-0 z-0;
+  }
+}

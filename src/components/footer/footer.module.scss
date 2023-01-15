@@ -1,0 +1,49 @@
+.footer {
+  @apply pl-7 pb-7 relative pt-20 rounded-md text-center lg:text-left md:text-left sm:text-left;
+  background: url(../../assets/images/footerbackgroud.png) no-repeat center
+    center/cover;
+
+  .dotImage {
+    @apply absolute invisible lg:visible md:visible bottom-28 left-[-50px];
+  }
+  .content {
+    @apply lg:flex md:flex justify-between items-start;
+
+    .logoContent {
+      @apply mb-40 flex-col text-18 font-normal text-warna-primary;
+
+      img {
+        @apply mb-10 mx-auto lg:mx-0 md:mx-0 sm:mx-0;
+      }
+
+      p:nth-child(2) {
+        @apply mb-7;
+      }
+    }
+
+    .asideLinks {
+      @apply lg:flex md:flex sm:flex;
+      li {
+        @apply mb-3 leading-7 text-22 font-normal text-warna-primary;
+      }
+      li:first-child {
+        @apply text-22 font-bold;
+      }
+
+      ul:first-child {
+        @apply lg:mr-20 md:mr-20 sm:mr-20;
+      }
+
+      .imagesContainer {
+        @apply relative w-[140px] h-[140px] lg:ml-7;
+        img:first-child {
+          @apply absolute;
+        }
+
+        img:nth-child(2) {
+          @apply absolute right-0 bottom-0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.main {
+  @apply flex flex-col shadow-lg justify-center p-[45px] lg:mt-[-100px] md:mt-[-100px] relative z-10 bg-slate-900 mx-auto lg:rounded-md rounded-md;
+  max-width: 1039px;
+  height: 326px;
+
+  background-image: linear-gradient(to bottom, #14213d8d, #14213d82),
+    url("../../assets/icons/Vector.png");
+
+  .title {
+    @apply text-white mb-[29px];
+  }
+  img {
+    @apply absolute bottom-8 right-[60px] w-10;
+  }
+}

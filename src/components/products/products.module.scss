@@ -1,0 +1,12 @@
+.products {
+  .productHeader {
+    @apply mb-24;
+  }
+
+  .productContent {
+    @apply lg:flex md:flex  justify-around;
+    div {
+      @apply m-3;
+    }
+  }
+}

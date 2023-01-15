@@ -1,0 +1,10 @@
+.cardBody {
+  @apply w-60;
+  .cardHeader {
+    @apply flex items-center mb-6;
+
+    img {
+      @apply mr-4;
+    }
+  }
+}
